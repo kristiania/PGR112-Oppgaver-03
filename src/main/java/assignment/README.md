@@ -24,7 +24,7 @@ Denne oppgaven finner du i Canvas, hvor oppgaven går ut på å bli kjent med In
 
 I denne oppgaven skal du lage en klasse som heter _MyFirstBook_.
 
-- Lag en klasse med navnet _Book_ som i første utgangspunkt skal ha 3 felter:
+- Lag en klasse med navnet _MyFirstBook_ som i første utgangspunkt skal ha 3 felter:
     - _title_
     - _author_
     - _numberOfPages_
