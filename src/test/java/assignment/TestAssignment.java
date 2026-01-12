@@ -169,7 +169,7 @@ public class TestAssignment extends BaseAssignment
 
             assertTrue(methodExists("getGenre"));
             //TODO: denne funker ikke med private metoder..kun med public!
-            assertTrue(methodExists("setGenre", Genre.class));
+            //assertTrue(methodExists("setGenre", Genre.class));
             //TODO: finner ut hvordan teste private felt
             testField("Genres", () -> {
                 assertTrue(fieldIsPrivate());
