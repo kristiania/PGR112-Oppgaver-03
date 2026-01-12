@@ -114,10 +114,10 @@ public class TestAssignment extends BaseAssignment
             assertTrue(methodExists("getAuthor"));
             assertTrue(methodExists("getNumberOfPages"));
 
-            //TODO: denne funker ikke med private metoder..kun med public!
+            
             assertTrue(methodExists("setTitle", String.class));
             assertTrue(methodExists("setNumberOfPages", int.class));
-             assertTrue(methodExists("setAuthor", String.class));
+            assertTrue(methodExists("setAuthor", String.class));
 
         });
 
@@ -165,10 +165,10 @@ public class TestAssignment extends BaseAssignment
     @Test()
     public void oppgave08() {
         // Code that tests the assignment goes here
-        testClass("assignment.Books", () -> {
+        testClass("assignment.Book", () -> {
 
             assertTrue(methodExists("getGenre"));
-            //TODO: denne funker ikke med private metoder..kun med public!
+            
             //assertTrue(methodExists("setGenre", Genre.class));
             //TODO: finner ut hvordan teste private felt
             testField("Genres", () -> {
